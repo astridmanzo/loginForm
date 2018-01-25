@@ -1,5 +1,12 @@
-$( document ).ready(function() {
-	$('#login').click(function(){
-		$('.form').toggleClass('hide', 15000);
-	});
-});
+$(document).ready(() => {
+
+	const $login = $('#login');
+	const $form = $('.hide');
+
+	$login.on('click', () => {
+    $form.show();
+  })
+	 
+})
+
+
