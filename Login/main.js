@@ -6,14 +6,16 @@ $(document).ready(() => {
 	const $menu = $('.menu')
 
 	$login.on('click', () => {
-    	$form.toggle();
-    	$menu.hide();
-  })
+		$form.toggle();
+		$menu.hide();
+	})
+    	
 
 	$menuButton.on('click', () => {
 		$menu.toggle();
 		$form.hide();
-	})
+	});
+
 	 
 })
 
